@@ -1,0 +1,151 @@
+epoch number 0 : ------------------------------
+Batch number 0 || D loss : 1.392259955406189 || G loss : -0.6802053451538086
+Batch number 50 || D loss : 1.3834257125854492 || G loss : -0.6412834525108337
+Batch number 100 || D loss : 1.3919206857681274 || G loss : -0.7387856245040894
+Batch number 150 || D loss : 1.388748288154602 || G loss : -0.6709876656532288
+epoch number 1 : ------------------------------
+Batch number 0 || D loss : 1.3920552730560303 || G loss : -0.7318869233131409
+Batch number 50 || D loss : 1.3852388858795166 || G loss : -0.6924918293952942
+Batch number 100 || D loss : 1.390939474105835 || G loss : -0.6964756846427917
+Batch number 150 || D loss : 1.3879740238189697 || G loss : -0.6971262693405151
+epoch number 2 : ------------------------------
+Batch number 0 || D loss : 1.3884871006011963 || G loss : -0.681045651435852
+Batch number 50 || D loss : 1.3874274492263794 || G loss : -0.6889495849609375
+Batch number 100 || D loss : 1.3874727487564087 || G loss : -0.6934407353401184
+Batch number 150 || D loss : 1.3869915008544922 || G loss : -0.6978864073753357
+epoch number 3 : ------------------------------
+Batch number 0 || D loss : 1.386929988861084 || G loss : -0.6986595988273621
+Batch number 50 || D loss : 1.3863431215286255 || G loss : -0.6953060626983643
+Batch number 100 || D loss : 1.386412262916565 || G loss : -0.6920967102050781
+Batch number 150 || D loss : 1.3862576484680176 || G loss : -0.689194917678833
+epoch number 4 : ------------------------------
+Batch number 0 || D loss : 1.3865268230438232 || G loss : -0.6922019720077515
+Batch number 50 || D loss : 1.3868519067764282 || G loss : -0.6914814710617065
+Batch number 100 || D loss : 1.386355996131897 || G loss : -0.6931910514831543
+Batch number 150 || D loss : 1.3862903118133545 || G loss : -0.692988932132721
+epoch number 5 : ------------------------------
+Batch number 0 || D loss : 1.386518955230713 || G loss : -0.6927844285964966
+Batch number 50 || D loss : 1.3863794803619385 || G loss : -0.692074179649353
+Batch number 100 || D loss : 1.3864073753356934 || G loss : -0.6935637593269348
+Batch number 150 || D loss : 1.3862687349319458 || G loss : -0.6927632093429565
+epoch number 6 : ------------------------------
+Batch number 0 || D loss : 1.3863410949707031 || G loss : -0.693713903427124
+Batch number 50 || D loss : 1.386324405670166 || G loss : -0.6935399770736694
+Batch number 100 || D loss : 1.386266827583313 || G loss : -0.6905814409255981
+Batch number 150 || D loss : 1.3863502740859985 || G loss : -0.6943519115447998
+epoch number 7 : ------------------------------
+Batch number 0 || D loss : 1.3863860368728638 || G loss : -0.6928296685218811
+Batch number 50 || D loss : 1.3863067626953125 || G loss : -0.6930795311927795
+Batch number 100 || D loss : 1.3862643241882324 || G loss : -0.6932973861694336
+Batch number 150 || D loss : 1.3863306045532227 || G loss : -0.693335771560669
+epoch number 8 : ------------------------------
+Batch number 0 || D loss : 1.3863178491592407 || G loss : -0.6924196481704712
+Batch number 50 || D loss : 1.3865079879760742 || G loss : -0.6931407451629639
+Batch number 100 || D loss : 1.3863248825073242 || G loss : -0.6927139759063721
+Batch number 150 || D loss : 1.3863210678100586 || G loss : -0.6933420300483704
+epoch number 9 : ------------------------------
+Batch number 0 || D loss : 1.3862872123718262 || G loss : -0.6927968859672546
+Batch number 50 || D loss : 1.3863002061843872 || G loss : -0.6931923627853394
+Batch number 100 || D loss : 1.3863894939422607 || G loss : -0.6931807994842529
+Batch number 150 || D loss : 1.3862941265106201 || G loss : -0.693157970905304
+epoch number 10 : ------------------------------
+Batch number 0 || D loss : 1.386350154876709 || G loss : -0.6932812333106995
+Batch number 50 || D loss : 1.386308193206787 || G loss : -0.6930540800094604
+Batch number 100 || D loss : 1.386423110961914 || G loss : -0.6934789419174194
+Batch number 150 || D loss : 1.3862918615341187 || G loss : -0.6929495334625244
+epoch number 11 : ------------------------------
+Batch number 0 || D loss : 1.3862979412078857 || G loss : -0.6930521726608276
+Batch number 50 || D loss : 1.3863513469696045 || G loss : -0.693198561668396
+Batch number 100 || D loss : 1.3863203525543213 || G loss : -0.6920401453971863
+Batch number 150 || D loss : 1.3861099481582642 || G loss : -0.6907782554626465
+epoch number 12 : ------------------------------
+Batch number 0 || D loss : 1.3863043785095215 || G loss : -0.6928364038467407
+Batch number 50 || D loss : 1.3863182067871094 || G loss : -0.6941725611686707
+Batch number 100 || D loss : 1.3864059448242188 || G loss : -0.6931727528572083
+Batch number 150 || D loss : 1.3862922191619873 || G loss : -0.6931437253952026
+epoch number 13 : ------------------------------
+Batch number 0 || D loss : 1.386291265487671 || G loss : -0.6932428479194641
+Batch number 50 || D loss : 1.3863027095794678 || G loss : -0.6932487487792969
+Batch number 100 || D loss : 1.3879783153533936 || G loss : -0.6930691003799438
+Batch number 150 || D loss : 1.386313557624817 || G loss : -0.6930068135261536
+epoch number 14 : ------------------------------
+Batch number 0 || D loss : 1.386289358139038 || G loss : -0.6930924654006958
+Batch number 50 || D loss : 1.3862979412078857 || G loss : -0.6931930184364319
+Batch number 100 || D loss : 1.3862953186035156 || G loss : -0.6931720972061157
+Batch number 150 || D loss : 1.3871225118637085 || G loss : -0.6969608068466187
+epoch number 15 : ------------------------------
+Batch number 0 || D loss : 1.38629150390625 || G loss : -0.6923646926879883
+Batch number 50 || D loss : 1.3863084316253662 || G loss : -0.6926580667495728
+Batch number 100 || D loss : 1.3862965106964111 || G loss : -0.6933070421218872
+Batch number 150 || D loss : 1.386293888092041 || G loss : -0.693161129951477
+epoch number 16 : ------------------------------
+Batch number 0 || D loss : 1.3862974643707275 || G loss : -0.6931341886520386
+Batch number 50 || D loss : 1.3862932920455933 || G loss : -0.6929366588592529
+Batch number 100 || D loss : 1.386296272277832 || G loss : -0.6931860446929932
+Batch number 150 || D loss : 1.3863152265548706 || G loss : -0.6931368112564087
+epoch number 17 : ------------------------------
+Batch number 0 || D loss : 1.386296272277832 || G loss : -0.6930888891220093
+Batch number 50 || D loss : 1.386299967765808 || G loss : -0.6930738091468811
+Batch number 100 || D loss : 1.386294960975647 || G loss : -0.6931501626968384
+Batch number 150 || D loss : 1.3867850303649902 || G loss : -0.6928673386573792
+epoch number 18 : ------------------------------
+Batch number 0 || D loss : 1.386291742324829 || G loss : -0.6931183338165283
+Batch number 50 || D loss : 1.3863880634307861 || G loss : -0.6927800178527832
+Batch number 100 || D loss : 1.3862943649291992 || G loss : -0.693139910697937
+Batch number 150 || D loss : 1.3863000869750977 || G loss : -0.6931214928627014
+epoch number 19 : ------------------------------
+Batch number 0 || D loss : 1.3862946033477783 || G loss : -0.6931474804878235
+Batch number 50 || D loss : 1.3862943649291992 || G loss : -0.6931471824645996
+Batch number 100 || D loss : 1.386605978012085 || G loss : -0.692920446395874
+Batch number 150 || D loss : 1.3862895965576172 || G loss : -0.6929094195365906
+epoch number 20 : ------------------------------
+Batch number 0 || D loss : 1.3863751888275146 || G loss : -0.6930305361747742
+Batch number 50 || D loss : 1.386290192604065 || G loss : -0.6936810612678528
+Batch number 100 || D loss : 1.3862991333007812 || G loss : -0.6932768821716309
+Batch number 150 || D loss : 1.3862950801849365 || G loss : -0.6931271553039551
+epoch number 21 : ------------------------------
+Batch number 0 || D loss : 1.3862943649291992 || G loss : -0.6932028532028198
+Batch number 50 || D loss : 1.386287808418274 || G loss : -0.6930323243141174
+Batch number 100 || D loss : 1.3863043785095215 || G loss : -0.6931024789810181
+Batch number 150 || D loss : 1.386306643486023 || G loss : -0.6931852102279663
+epoch number 22 : ------------------------------
+Batch number 0 || D loss : 1.386296033859253 || G loss : -0.6931740045547485
+Batch number 50 || D loss : 1.3862879276275635 || G loss : -0.6922073364257812
+Batch number 100 || D loss : 1.3862996101379395 || G loss : -0.6931665539741516
+Batch number 150 || D loss : 1.3862942457199097 || G loss : -0.6931501626968384
+epoch number 23 : ------------------------------
+Batch number 0 || D loss : 1.3862941265106201 || G loss : -0.6931357383728027
+Batch number 50 || D loss : 1.3863673210144043 || G loss : -0.6919678449630737
+Batch number 100 || D loss : 1.3863552808761597 || G loss : -0.6945834755897522
+Batch number 150 || D loss : 1.3862378597259521 || G loss : -0.6931500434875488
+epoch number 24 : ------------------------------
+Batch number 0 || D loss : 1.3863770961761475 || G loss : -0.6934412717819214
+Batch number 50 || D loss : 1.3863418102264404 || G loss : -0.6931350231170654
+Batch number 100 || D loss : 1.386296033859253 || G loss : -0.6930804252624512
+Batch number 150 || D loss : 1.3862946033477783 || G loss : -0.6931468844413757
+epoch number 25 : ------------------------------
+Batch number 0 || D loss : 1.386294960975647 || G loss : -0.6932033896446228
+Batch number 50 || D loss : 1.3863134384155273 || G loss : -0.692875862121582
+Batch number 100 || D loss : 1.3862957954406738 || G loss : -0.6932352781295776
+Batch number 150 || D loss : 1.386325478553772 || G loss : -0.6932367086410522
+epoch number 26 : ------------------------------
+Batch number 0 || D loss : 1.386293888092041 || G loss : -0.6931345462799072
+Batch number 50 || D loss : 1.3862946033477783 || G loss : -0.6931225061416626
+Batch number 100 || D loss : 1.3862916231155396 || G loss : -0.6930012106895447
+Batch number 150 || D loss : 1.3862947225570679 || G loss : -0.6931325197219849
+epoch number 27 : ------------------------------
+Batch number 0 || D loss : 1.3861792087554932 || G loss : -0.6931070685386658
+Batch number 50 || D loss : 1.3863537311553955 || G loss : -0.6929653882980347
+Batch number 100 || D loss : 1.3863019943237305 || G loss : -0.6931538581848145
+Batch number 150 || D loss : 1.3862942457199097 || G loss : -0.6931112408638
+epoch number 28 : ------------------------------
+Batch number 0 || D loss : 1.3862943649291992 || G loss : -0.6931462287902832
+Batch number 50 || D loss : 1.3862974643707275 || G loss : -0.6929470896720886
+Batch number 100 || D loss : 1.3862947225570679 || G loss : -0.6931345462799072
+Batch number 150 || D loss : 1.38629949092865 || G loss : -0.693168580532074
+epoch number 29 : ------------------------------
+Batch number 0 || D loss : 1.3862757682800293 || G loss : -0.6932347416877747
+Batch number 50 || D loss : 1.3862943649291992 || G loss : -0.6931471824645996
+Batch number 100 || D loss : 1.3862943649291992 || G loss : -0.6931471824645996
+Batch number 150 || D loss : 1.3862943649291992 || G loss : -0.6931471824645996
+(10, 32, 32, 3)
