@@ -1,0 +1,276 @@
+/home/longvv/anaconda3/lib/python3.10/site-packages/torch/nn/modules/conv.py:952: UserWarning: Plan failed with a cudnnException: CUDNN_BACKEND_EXECUTION_PLAN_DESCRIPTOR: cudnnFinalize Descriptor Failed cudnn_status: CUDNN_STATUS_NOT_SUPPORTED (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:919.)
+  return F.conv_transpose2d(
+/home/longvv/anaconda3/lib/python3.10/site-packages/torch/autograd/graph.py:744: UserWarning: Plan failed with a cudnnException: CUDNN_BACKEND_EXECUTION_PLAN_DESCRIPTOR: cudnnFinalize Descriptor Failed cudnn_status: CUDNN_STATUS_NOT_SUPPORTED (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:919.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+Epoch 0 | step 000 Loss: 1.0166046619415283
+Epoch 0 | step 030 Loss: 0.10853540897369385
+Epoch 0 | step 060 Loss: 0.06217533349990845
+Epoch 0 | step 090 Loss: 0.04782179743051529
+/home/longvv/anaconda3/lib/python3.10/site-packages/torch/nn/modules/conv.py:456: UserWarning: Plan failed with a cudnnException: CUDNN_BACKEND_EXECUTION_PLAN_DESCRIPTOR: cudnnFinalize Descriptor Failed cudnn_status: CUDNN_STATUS_NOT_SUPPORTED (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:919.)
+  return F.conv2d(input, weight, bias, self.stride,
+Test Loss : 0.044201258569955826
+------------------------------
+Epoch 1 | step 000 Loss: 0.04138842597603798
+Epoch 1 | step 030 Loss: 0.044251371175050735
+Epoch 1 | step 060 Loss: 0.03499065339565277
+Epoch 1 | step 090 Loss: 0.03926503658294678
+Test Loss : 0.0345577328465879
+------------------------------
+Epoch 2 | step 000 Loss: 0.032797686755657196
+Epoch 2 | step 030 Loss: 0.0355653390288353
+Epoch 2 | step 060 Loss: 0.03666070103645325
+Epoch 2 | step 090 Loss: 0.034209102392196655
+Test Loss : 0.03330013826489449
+------------------------------
+Epoch 3 | step 000 Loss: 0.032992150634527206
+Epoch 3 | step 030 Loss: 0.030460895970463753
+Epoch 3 | step 060 Loss: 0.031130796298384666
+Epoch 3 | step 090 Loss: 0.031298741698265076
+Test Loss : 0.030135596916079522
+------------------------------
+Epoch 4 | step 000 Loss: 0.02715875580906868
+Epoch 4 | step 030 Loss: 0.02613239735364914
+Epoch 4 | step 060 Loss: 0.02973121777176857
+Epoch 4 | step 090 Loss: 0.030144648626446724
+Test Loss : 0.029552632384002207
+------------------------------
+Epoch 5 | step 000 Loss: 0.02970557101070881
+Epoch 5 | step 030 Loss: 0.03309612721204758
+Epoch 5 | step 060 Loss: 0.029893161728978157
+Epoch 5 | step 090 Loss: 0.02789311856031418
+Test Loss : 0.02907999437302351
+------------------------------
+Epoch 6 | step 000 Loss: 0.031269654631614685
+Epoch 6 | step 030 Loss: 0.034412503242492676
+Epoch 6 | step 060 Loss: 0.024015022441744804
+Epoch 6 | step 090 Loss: 0.026779234409332275
+Test Loss : 0.02721285941079259
+------------------------------
+Epoch 7 | step 000 Loss: 0.02560015581548214
+Epoch 7 | step 030 Loss: 0.023444080725312233
+Epoch 7 | step 060 Loss: 0.027533691376447678
+Epoch 7 | step 090 Loss: 0.02665281854569912
+Test Loss : 0.025546856224536896
+------------------------------
+Epoch 8 | step 000 Loss: 0.030892740935087204
+Epoch 8 | step 030 Loss: 0.027348659932613373
+Epoch 8 | step 060 Loss: 0.02456798404455185
+Epoch 8 | step 090 Loss: 0.0233991127461195
+Test Loss : 0.026507216691970825
+------------------------------
+Epoch 9 | step 000 Loss: 0.02715815044939518
+Epoch 9 | step 030 Loss: 0.025588374584913254
+Epoch 9 | step 060 Loss: 0.024419888854026794
+Epoch 9 | step 090 Loss: 0.025539465248584747
+Test Loss : 0.025383186154067518
+------------------------------
+Epoch 10 | step 000 Loss: 0.026859812438488007
+Epoch 10 | step 030 Loss: 0.023440688848495483
+Epoch 10 | step 060 Loss: 0.02623862400650978
+Epoch 10 | step 090 Loss: 0.025259334594011307
+Test Loss : 0.02681468250229955
+------------------------------
+Epoch 11 | step 000 Loss: 0.021762434393167496
+Epoch 11 | step 030 Loss: 0.02342386171221733
+Epoch 11 | step 060 Loss: 0.023938316851854324
+Epoch 11 | step 090 Loss: 0.025665409862995148
+Test Loss : 0.02559941178187728
+------------------------------
+Epoch 12 | step 000 Loss: 0.027299806475639343
+Epoch 12 | step 030 Loss: 0.022158630192279816
+Epoch 12 | step 060 Loss: 0.027070507407188416
+Epoch 12 | step 090 Loss: 0.021806908771395683
+Test Loss : 0.027404183987528086
+------------------------------
+Epoch 13 | step 000 Loss: 0.024792876094579697
+Epoch 13 | step 030 Loss: 0.026471219956874847
+Epoch 13 | step 060 Loss: 0.0249329824000597
+Epoch 13 | step 090 Loss: 0.025920551270246506
+Test Loss : 0.024788704141974448
+------------------------------
+Epoch 14 | step 000 Loss: 0.028528092429041862
+Epoch 14 | step 030 Loss: 0.02168252319097519
+Epoch 14 | step 060 Loss: 0.023415930569171906
+Epoch 14 | step 090 Loss: 0.027796071022748947
+Test Loss : 0.02373843118548393
+------------------------------
+Epoch 15 | step 000 Loss: 0.021722204983234406
+Epoch 15 | step 030 Loss: 0.025444459170103073
+Epoch 15 | step 060 Loss: 0.02507278136909008
+Epoch 15 | step 090 Loss: 0.024819131940603256
+Test Loss : 0.02592968735843897
+------------------------------
+Epoch 16 | step 000 Loss: 0.025571241974830627
+Epoch 16 | step 030 Loss: 0.02573774755001068
+Epoch 16 | step 060 Loss: 0.02601516619324684
+Epoch 16 | step 090 Loss: 0.022552359849214554
+Test Loss : 0.02475983938202262
+------------------------------
+Epoch 17 | step 000 Loss: 0.025350049138069153
+Epoch 17 | step 030 Loss: 0.024458440020680428
+Epoch 17 | step 060 Loss: 0.02217576839029789
+Epoch 17 | step 090 Loss: 0.02442850172519684
+Test Loss : 0.024227045010775328
+------------------------------
+Epoch 18 | step 000 Loss: 0.02548767253756523
+Epoch 18 | step 030 Loss: 0.02294136956334114
+Epoch 18 | step 060 Loss: 0.021749433130025864
+Epoch 18 | step 090 Loss: 0.025516541674733162
+Test Loss : 0.023060983140021564
+------------------------------
+Epoch 19 | step 000 Loss: 0.020607437938451767
+Epoch 19 | step 030 Loss: 0.022959483787417412
+Epoch 19 | step 060 Loss: 0.021954145282506943
+Epoch 19 | step 090 Loss: 0.022950517013669014
+Test Loss : 0.023519298154860736
+------------------------------
+Epoch 20 | step 000 Loss: 0.02265087142586708
+Epoch 20 | step 030 Loss: 0.027826005592942238
+Epoch 20 | step 060 Loss: 0.02431768923997879
+Epoch 20 | step 090 Loss: 0.021561525762081146
+Test Loss : 0.02254735790193081
+------------------------------
+Epoch 21 | step 000 Loss: 0.01981351710855961
+Epoch 21 | step 030 Loss: 0.022591738030314445
+Epoch 21 | step 060 Loss: 0.024710897356271744
+Epoch 21 | step 090 Loss: 0.02444501779973507
+Test Loss : 0.023328243847936393
+------------------------------
+Epoch 22 | step 000 Loss: 0.0232925396412611
+Epoch 22 | step 030 Loss: 0.022696733474731445
+Epoch 22 | step 060 Loss: 0.01983269676566124
+Epoch 22 | step 090 Loss: 0.02344648353755474
+Test Loss : 0.023367318231612443
+------------------------------
+Epoch 23 | step 000 Loss: 0.021435171365737915
+Epoch 23 | step 030 Loss: 0.020822674036026
+Epoch 23 | step 060 Loss: 0.021021513268351555
+Epoch 23 | step 090 Loss: 0.02466414123773575
+Test Loss : 0.023144617304205896
+------------------------------
+Epoch 24 | step 000 Loss: 0.021500252187252045
+Epoch 24 | step 030 Loss: 0.01930880919098854
+Epoch 24 | step 060 Loss: 0.021627742797136307
+Epoch 24 | step 090 Loss: 0.020713333040475845
+Test Loss : 0.022851041052490473
+------------------------------
+Epoch 25 | step 000 Loss: 0.022302113473415375
+Epoch 25 | step 030 Loss: 0.023002080619335175
+Epoch 25 | step 060 Loss: 0.020136818289756775
+Epoch 25 | step 090 Loss: 0.023038668558001518
+Test Loss : 0.021859295945614577
+------------------------------
+Epoch 26 | step 000 Loss: 0.023537609726190567
+Epoch 26 | step 030 Loss: 0.02254367619752884
+Epoch 26 | step 060 Loss: 0.020717360079288483
+Epoch 26 | step 090 Loss: 0.018219754099845886
+Test Loss : 0.021979237627238035
+------------------------------
+Epoch 27 | step 000 Loss: 0.020605910569429398
+Epoch 27 | step 030 Loss: 0.023625876754522324
+Epoch 27 | step 060 Loss: 0.02422790601849556
+Epoch 27 | step 090 Loss: 0.022190043702721596
+Test Loss : 0.02285932721570134
+------------------------------
+Epoch 28 | step 000 Loss: 0.020497377961874008
+Epoch 28 | step 030 Loss: 0.021220708265900612
+Epoch 28 | step 060 Loss: 0.01924382522702217
+Epoch 28 | step 090 Loss: 0.02087966911494732
+Test Loss : 0.022370608150959016
+------------------------------
+Epoch 29 | step 000 Loss: 0.026771338656544685
+Epoch 29 | step 030 Loss: 0.02118849754333496
+Epoch 29 | step 060 Loss: 0.021813973784446716
+Epoch 29 | step 090 Loss: 0.01811952516436577
+Test Loss : 0.02179680122062564
+------------------------------
+Epoch 30 | step 000 Loss: 0.023742057383060455
+Epoch 30 | step 030 Loss: 0.020409919321537018
+Epoch 30 | step 060 Loss: 0.02053482085466385
+Epoch 30 | step 090 Loss: 0.021336829289793968
+Test Loss : 0.021280295681208372
+------------------------------
+Epoch 31 | step 000 Loss: 0.021335620433092117
+Epoch 31 | step 030 Loss: 0.02032240480184555
+Epoch 31 | step 060 Loss: 0.02249141037464142
+Epoch 31 | step 090 Loss: 0.023069266229867935
+Test Loss : 0.022178821638226508
+------------------------------
+Epoch 32 | step 000 Loss: 0.02199345827102661
+Epoch 32 | step 030 Loss: 0.021891256794333458
+Epoch 32 | step 060 Loss: 0.01922357641160488
+Epoch 32 | step 090 Loss: 0.018498098477721214
+Test Loss : 0.022517806384712458
+------------------------------
+Epoch 33 | step 000 Loss: 0.017816826701164246
+Epoch 33 | step 030 Loss: 0.02012181654572487
+Epoch 33 | step 060 Loss: 0.02178948186337948
+Epoch 33 | step 090 Loss: 0.022102119401097298
+Test Loss : 0.022413174714893104
+------------------------------
+Epoch 34 | step 000 Loss: 0.02195698395371437
+Epoch 34 | step 030 Loss: 0.02211853489279747
+Epoch 34 | step 060 Loss: 0.024956947192549706
+Epoch 34 | step 090 Loss: 0.020691515877842903
+Test Loss : 0.022077406104654074
+------------------------------
+Epoch 35 | step 000 Loss: 0.02097836323082447
+Epoch 35 | step 030 Loss: 0.020098067820072174
+Epoch 35 | step 060 Loss: 0.024009304121136665
+Epoch 35 | step 090 Loss: 0.022407807409763336
+Test Loss : 0.022255147434771062
+------------------------------
+Epoch 36 | step 000 Loss: 0.02246447652578354
+Epoch 36 | step 030 Loss: 0.023251745849847794
+Epoch 36 | step 060 Loss: 0.022113457322120667
+Epoch 36 | step 090 Loss: 0.021327927708625793
+Test Loss : 0.021986633352935315
+------------------------------
+Epoch 37 | step 000 Loss: 0.019168583676218987
+Epoch 37 | step 030 Loss: 0.020864777266979218
+Epoch 37 | step 060 Loss: 0.01874512992799282
+Epoch 37 | step 090 Loss: 0.02267378568649292
+Test Loss : 0.02251625657081604
+------------------------------
+Epoch 38 | step 000 Loss: 0.019930141046643257
+Epoch 38 | step 030 Loss: 0.020045174285769463
+Epoch 38 | step 060 Loss: 0.022722529247403145
+Epoch 38 | step 090 Loss: 0.019543396309018135
+Test Loss : 0.022251638025045394
+------------------------------
+Epoch 39 | step 000 Loss: 0.021894969046115875
+Epoch 39 | step 030 Loss: 0.02172096073627472
+Epoch 39 | step 060 Loss: 0.018187763169407845
+Epoch 39 | step 090 Loss: 0.023704923689365387
+Test Loss : 0.02238351320847869
+------------------------------
+Epoch 40 | step 000 Loss: 0.020411379635334015
+Epoch 40 | step 030 Loss: 0.020671170204877853
+Epoch 40 | step 060 Loss: 0.020994387567043304
+Epoch 40 | step 090 Loss: 0.01958230882883072
+Test Loss : 0.021661214437335728
+------------------------------
+Epoch 41 | step 000 Loss: 0.021057642996311188
+Epoch 41 | step 030 Loss: 0.01848885975778103
+Epoch 41 | step 060 Loss: 0.019790373742580414
+Epoch 41 | step 090 Loss: 0.01917431503534317
+Test Loss : 0.021149999368935822
+------------------------------
+Epoch 42 | step 000 Loss: 0.02554049901664257
+Epoch 42 | step 030 Loss: 0.020195715129375458
+Epoch 42 | step 060 Loss: 0.02193775400519371
+Epoch 42 | step 090 Loss: 0.020800745114684105
+Test Loss : 0.02054134365171194
+------------------------------
+Epoch 43 | step 000 Loss: 0.021438075229525566
+Epoch 43 | step 030 Loss: 0.022074319422245026
+Epoch 43 | step 060 Loss: 0.01814921572804451
+Epoch 43 | step 090 Loss: 0.019480634480714798
+Test Loss : 0.022044807113707064
+------------------------------
+Epoch 44 | step 000 Loss: 0.020172469317913055
+Epoch 44 | step 030 Loss: 0.019996868446469307
+Epoch 44 | step 060 Loss: 0.021037081256508827
+Epoch 44 | step 090 Loss: 0.020489808171987534
+Test Loss : 0.020718939788639545
+------------------------------

@@ -1,0 +1,10 @@
+/home/longvv/anaconda3/lib/python3.10/site-packages/torch/nn/modules/conv.py:952: UserWarning: Plan failed with a cudnnException: CUDNN_BACKEND_EXECUTION_PLAN_DESCRIPTOR: cudnnFinalize Descriptor Failed cudnn_status: CUDNN_STATUS_NOT_SUPPORTED (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:919.)
+  return F.conv_transpose2d(
+/home/longvv/anaconda3/lib/python3.10/site-packages/torch/autograd/graph.py:744: UserWarning: Plan failed with a cudnnException: CUDNN_BACKEND_EXECUTION_PLAN_DESCRIPTOR: cudnnFinalize Descriptor Failed cudnn_status: CUDNN_STATUS_NOT_SUPPORTED (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:919.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+Epoch 0 | step 000 Loss: 1.0343952178955078
+Epoch 0 | step 030 Loss: 0.11119650304317474
+Traceback (most recent call last):
+  File "/home/longvv/generative_model/diffusion-real/train.py", line 143, in <module>
+    X = X.to(device)
+KeyboardInterrupt

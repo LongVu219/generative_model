@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/home/longvv/generative_model/diffusion-real/train.py", line 163, in <module>
+    sample_plot_image((epoch + 1)//5)
+  File "/home/longvv/anaconda3/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/longvv/generative_model/diffusion-real/train.py", line 111, in sample_plot_image
+    show_images(img_name, img_set, save = True)
+  File "/home/longvv/generative_model/diffusion-real/train.py", line 87, in show_images
+    plt.imshow(img, cmap='gray')
+  File "/home/longvv/anaconda3/lib/python3.10/site-packages/matplotlib/pyplot.py", line 2668, in imshow
+    __ret = gca().imshow(
+  File "/home/longvv/anaconda3/lib/python3.10/site-packages/matplotlib/__init__.py", line 1442, in inner
+    return func(ax, *map(sanitize_sequence, args), **kwargs)
+  File "/home/longvv/anaconda3/lib/python3.10/site-packages/matplotlib/axes/_axes.py", line 5665, in imshow
+    im.set_data(X)
+  File "/home/longvv/anaconda3/lib/python3.10/site-packages/matplotlib/image.py", line 710, in set_data
+    raise TypeError("Invalid shape {} for image data"
+TypeError: Invalid shape (1, 32, 32) for image data

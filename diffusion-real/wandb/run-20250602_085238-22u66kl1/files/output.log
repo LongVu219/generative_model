@@ -1,0 +1,20 @@
+/home/longvv/anaconda3/lib/python3.10/site-packages/torch/nn/modules/conv.py:952: UserWarning: Plan failed with a cudnnException: CUDNN_BACKEND_EXECUTION_PLAN_DESCRIPTOR: cudnnFinalize Descriptor Failed cudnn_status: CUDNN_STATUS_NOT_SUPPORTED (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:919.)
+  return F.conv_transpose2d(
+/home/longvv/anaconda3/lib/python3.10/site-packages/torch/autograd/graph.py:744: UserWarning: Plan failed with a cudnnException: CUDNN_BACKEND_EXECUTION_PLAN_DESCRIPTOR: cudnnFinalize Descriptor Failed cudnn_status: CUDNN_STATUS_NOT_SUPPORTED (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:919.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+Epoch 0 | step 000 Loss: 1.055429458618164
+Epoch 0 | step 030 Loss: 0.10922311991453171
+Epoch 0 | step 060 Loss: 0.06304933875799179
+Epoch 0 | step 090 Loss: 0.04572136327624321
+/home/longvv/anaconda3/lib/python3.10/site-packages/torch/nn/modules/conv.py:456: UserWarning: Plan failed with a cudnnException: CUDNN_BACKEND_EXECUTION_PLAN_DESCRIPTOR: cudnnFinalize Descriptor Failed cudnn_status: CUDNN_STATUS_NOT_SUPPORTED (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:919.)
+  return F.conv2d(input, weight, bias, self.stride,
+Traceback (most recent call last):
+  File "/home/longvv/generative_model/diffusion-real/train.py", line 162, in <module>
+    sample_plot_image((epoch + 1)//5)
+  File "/home/longvv/anaconda3/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/longvv/generative_model/diffusion-real/train.py", line 111, in sample_plot_image
+    show_images(img_name, img_set, save = True)
+  File "/home/longvv/generative_model/diffusion-real/train.py", line 80, in show_images
+    plt.figure(figsize=(15,15))
+NameError: name 'plt' is not defined

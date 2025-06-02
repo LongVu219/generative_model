@@ -1,0 +1,22 @@
+2025-06-02 09:19:44,571 INFO    MainThread:184387 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-06-02 09:19:44,572 INFO    MainThread:184387 [wandb_setup.py:_flush():67] Configure stats pid to 184387
+2025-06-02 09:19:44,572 INFO    MainThread:184387 [wandb_setup.py:_flush():67] Loading settings from /home/longvv/.config/wandb/settings
+2025-06-02 09:19:44,572 INFO    MainThread:184387 [wandb_setup.py:_flush():67] Loading settings from /home/longvv/generative_model/diffusion-real/wandb/settings
+2025-06-02 09:19:44,572 INFO    MainThread:184387 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-06-02 09:19:44,572 INFO    MainThread:184387 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/longvv/generative_model/diffusion-real/wandb/run-20250602_091944-erx4o76a/logs/debug.log
+2025-06-02 09:19:44,572 INFO    MainThread:184387 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/longvv/generative_model/diffusion-real/wandb/run-20250602_091944-erx4o76a/logs/debug-internal.log
+2025-06-02 09:19:44,572 INFO    MainThread:184387 [wandb_init.py:init():761] calling init triggers
+2025-06-02 09:19:44,572 INFO    MainThread:184387 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'batch_size': 512, 'lr': 0.0005, 'timesteps': 500, 'img_size': 32, 'epochs': 60, '_wandb': {}}
+2025-06-02 09:19:44,573 INFO    MainThread:184387 [wandb_init.py:init():784] starting backend
+2025-06-02 09:19:44,573 INFO    MainThread:184387 [wandb_init.py:init():788] sending inform_init request
+2025-06-02 09:19:44,580 INFO    MainThread:184387 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-06-02 09:19:44,580 INFO    MainThread:184387 [wandb_init.py:init():798] backend started and connected
+2025-06-02 09:19:44,582 INFO    MainThread:184387 [wandb_init.py:init():891] updated telemetry
+2025-06-02 09:19:44,592 INFO    MainThread:184387 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-06-02 09:19:45,087 INFO    MainThread:184387 [wandb_init.py:init():990] starting run threads in backend
+2025-06-02 09:19:45,555 INFO    MainThread:184387 [wandb_run.py:_console_start():2375] atexit reg
+2025-06-02 09:19:45,555 INFO    MainThread:184387 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-06-02 09:19:45,555 INFO    MainThread:184387 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-06-02 09:19:45,555 INFO    MainThread:184387 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-06-02 09:19:45,558 INFO    MainThread:184387 [wandb_init.py:init():1032] run started, returning control to user process

@@ -1,0 +1,42 @@
+{
+  "os": "Linux-3.10.0-1160.25.1.el7.x86_64-x86_64-with-glibc2.17",
+  "python": "CPython 3.10.9",
+  "startedAt": "2025-06-02T02:19:44.580818Z",
+  "program": "/home/longvv/generative_model/diffusion-real/train.py",
+  "codePath": "diffusion-real/train.py",
+  "git": {
+    "remote": "https://github.com/LongVu219/generative_model.git",
+    "commit": "5c28bb982b84d78ed4480dc38fb5eccffcdc23ba"
+  },
+  "email": "megacod219@gmail.com",
+  "root": "/home/longvv/generative_model/diffusion-real",
+  "host": "hanoi",
+  "executable": "/home/longvv/anaconda3/bin/python",
+  "codePathLocal": "train.py",
+  "cpu_count": 48,
+  "cpu_count_logical": 96,
+  "gpu": "Tesla T4",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "214643507200",
+      "used": "131755880448"
+    }
+  },
+  "memory": {
+    "total": "269909180416"
+  },
+  "cpu": {
+    "count": 48,
+    "countLogical": 96
+  },
+  "gpu_nvidia": [
+    {
+      "name": "Tesla T4",
+      "memoryTotal": "16106127360",
+      "cudaCores": 2560,
+      "architecture": "Turing"
+    }
+  ],
+  "cudaVersion": "12.4"
+}

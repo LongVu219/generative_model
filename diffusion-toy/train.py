@@ -82,9 +82,9 @@ train_dataset, test_dataset = random_split(dataset, [train_size, test_size])
 train_dataloader = DataLoader(train_dataset, batch_size=128, shuffle=True)
 test_dataloader = DataLoader(test_dataset, batch_size=128, shuffle=False)
 
-T = 300
+T = 500
 start = 0.0001
-end = 0.02
+end = 0.05
 device = 'cuda'
 IMG_SIZE = 32
 BATCH_SIZE = 256
@@ -217,32 +217,7 @@ print("Num params: ", sum(p.numel() for p in model.parameters()))
 def get_loss(model, x_0, t):
     x_noisy, noise = forward_diffusion_sample(x_0, t)
     noise_pred = model(x_noisy, t)
-    return F.l1_loss(noise, noise_pred)
-
-@torch.no_grad()
-def sample_timestep(x, t):
-    """
-    Calls the model to predict the noise in the image and returns 
-    the denoised image. 
-    Applies noise to this image, if we are not in the last step yet.
-    """
-    betas_t = get_index_from_list(betas, t, x.shape)
-    sqrt_one_minus_alphas_cumprod_t = get_index_from_list(
-        sqrt_one_minus_alphas_cumprod, t, x.shape
-    )
-    sqrt_recip_alphas_t = get_index_from_list(sqrt_recip_alphas, t, x.shape)
-    
-    # Call model (current image - noise prediction)
-    model_mean = sqrt_recip_alphas_t * (
-        x - betas_t * model(x, t) / sqrt_one_minus_alphas_cumprod_t
-    )
-    posterior_variance_t = get_index_from_list(posterior_variance, t, x.shape)
-    
-    if t == 0:
-        return model_mean
-    else:
-        noise = torch.randn_like(x)
-        return model_mean + torch.sqrt(posterior_variance_t) * noise 
+    return F.mse_loss(noise, noise_pred)
 
 @torch.no_grad()
 def sample_timestep(x, t):
