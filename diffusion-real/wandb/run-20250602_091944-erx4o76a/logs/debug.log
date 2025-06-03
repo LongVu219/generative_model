@@ -20,3 +20,4 @@ config: {'batch_size': 512, 'lr': 0.0005, 'timesteps': 500, 'img_size': 32, 'epo
 2025-06-02 09:19:45,555 INFO    MainThread:184387 [wandb_run.py:_redirect():2292] Wrapping output streams.
 2025-06-02 09:19:45,555 INFO    MainThread:184387 [wandb_run.py:_redirect():2315] Redirects installed.
 2025-06-02 09:19:45,558 INFO    MainThread:184387 [wandb_init.py:init():1032] run started, returning control to user process
+2025-06-02 11:38:50,974 INFO    MsgRouterThr:184387 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
