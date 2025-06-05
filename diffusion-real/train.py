@@ -106,7 +106,7 @@ def sample_plot_image(img_name):
         t = torch.full((1,), i, device=device, dtype=torch.long)
         img = sample_timestep(img, t)
         # Edit: This is to maintain the natural range of the distribution
-        img = torch.clamp(img, -1.0, 1.0)
+        # img = torch.clamp(img, -1.0, 1.0)
         if i % stepsize == 0:
             img_set.append(img.squeeze(dim = 0))
             
